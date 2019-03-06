@@ -1,7 +1,7 @@
 print("Hello World!")
 
 def minmax():
-    l = (int(x) for x in input("Enter numbers: ").split())
+    l = [int(x) for x in input("Enter numbers: ").split()]
 
 
     min = l[0]
